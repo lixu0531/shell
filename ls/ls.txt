@@ -1,0 +1,5 @@
+ln -s [Src] [Dst]
+
+在多版本gcc共存的时候ln -s命令很有用
+
+sudo ln -s /usr/bin/gcc-4.1 /usr/bin/gcc    " 建立GCC到gcc-4.1的软链接

@@ -1,0 +1,1 @@
+echo /home/app/config/T/*/ | xargs -n 1 cp -v /home/KM.xml 

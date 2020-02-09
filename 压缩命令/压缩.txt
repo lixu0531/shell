@@ -1,0 +1,45 @@
+.tar
+tar xvf FileName.tar # 解压
+tar cvf FileName.tar DirName # 压缩
+
+.gz
+gunzip FileName.gz # 解压
+gzip -d FileName.gz # 解压
+gzip FileName # 压缩
+
+.tar.gz 和 .tgz
+tar zxvf FileName.tar.gz # 解压
+tar zcvf FileName.tar.gz DirName # 压缩
+
+.bz2
+bzip2 -d FileName.bz2 # 解压
+bunzip2 FileName.bz2 # 解压
+bzip2 -z FileName # 压缩
+
+.tar.bz2
+tar jxvf FileName.tar.bz2 # 解压
+tar jcvf FileName.tar.bz2 DirName # 压缩
+
+.bz
+bzip2 -d FileName.bz # 解压
+bunzip2 FileName.bz # 解压
+.tar.bz
+tar jxvf FileName.tar.bz # 解压
+
+.Z
+uncompress FileName.Z # 解压
+compress FileName # 压缩
+
+.tar.Z
+tar Zxvf FileName.tar.Z # 解压
+tar Zcvf FileName.tar.Z DirName # 压缩
+
+.zip
+解压：unzip FileName.zip
+压缩：zip FileName.zip DirName
+
+.rar
+命令安装：https://www.rarlab.com/downlo...
+
+rar x FileName.rar # 解压
+rar a FileName.rar DirName # 压缩
